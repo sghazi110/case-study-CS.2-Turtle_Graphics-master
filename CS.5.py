@@ -1,0 +1,16 @@
+#cs.5
+import turtle
+s=turtle.Screen()
+t=turtle.Turtle()
+t.penup()
+t.goto(0,100)
+t.pendown()
+t.circle(100)
+t.penup()
+t.goto(-100,0)
+t.pendown()
+t.circle(100)
+t.penup()
+t.goto(100,0)
+t.pendown()
+t.circle(100)
